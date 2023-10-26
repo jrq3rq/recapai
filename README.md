@@ -1,70 +1,197 @@
-# Getting Started with Create React App
+# RecapAI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+recapai
+├── public
+│ ├── icons
+│ │ └── icon-16.png
+│ │ └── icon-32.png
+│ │ └── icon-128.png
+│ ├── images
+│ │ └── logo.png
+│ │ └── image1.jpg
+│ │ └── image2.jpg
+│ ├── manifest.json
+│ │ └── _populated_
+│ └── index.html
+├── src
+│ ├── components
+│ │ ├── Popup.js
+│ │ └── Options.js
+│ │ └── /_ component docs _/
+│ ├── background
+│ │ └── background.js
+│ ├── contentScript
+│ │ └── contentScript.js
+│ ├── utils
+│ │ └── nlpAPI.js
+│ ├── index.js
+│ └── App.js
+├── package.json
+│ └── _dependencies installed_
+├── .gitignore
+├── README.md
+├── CHANGELOG.md
+├── webpack.config.js
+├── .eslintrc
+├── tests
+│ └── sample.test.js
+│ └── /_ more tests _/
+├── buildScripts
+│ └── build.js
+├── deployScripts
+│ └── deploy.js
+├── LICENSE
+├── styles
+│ └── styles.css
+└── package-lock.json
+```
 
-## Available Scripts
+![recapai_diagramIMG](public/images/recapai_diagramIMG.jpeg)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+RecapAI is an AI-powered platform designed to simplify complex documents and text. Making the fine print crystal clear.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+RecapAI offers a range of powerful features to enhance user interaction with complex text:
 
-### `npm test`
+### Feature 1: Instant Summaries
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+RecapAI enables users to generate concise document summaries instantly through natural language processing.
 
-### `npm run build`
+### Feature 2: Plain Language Translation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+RecapAI translates complex jargon and legalese into understandable language.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Feature 3: Insight Extraction
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+RecapAI extracts and highlights key details, figures, obligations, rights, and action items from complex text.
 
-### `npm run eject`
+### Feature 4: Customizable Summaries
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+RecapAI allows users to customize summary length and depth according to their needs.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Feature 5: Interactive Assistance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+RecapAI features an AI-powered assistant to clarify concepts and provide interactive guidance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+These features make RecapAI a versatile tool for simplifying complex text.
 
-## Learn More
+## Application Areas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+RecapAI is applied in various domains:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Insurance Policies**: Analyzing and summarizing insurance policy terms.
+- **Banking**: Handling banking documents and lengthy lists of fees.
+- **Software/Tech**: Managing EULAs and terms of service agreements.
+- **Wireless Carriers**: Dealing with multi-page contracts.
+- **Credit Cards**: Understanding credit card agreements.
+- **Travel Sites**: Handling reservations, cancellations, and related policies.
+- **Pharmaceutical Companies**: Summarizing health warnings on products.
 
-### Code Splitting
+## How It Works
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+RecapAI simplifies complex text using advanced natural language processing.
 
-### Analyzing the Bundle Size
+## Use Cases
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+RecapAI is applied in various domains, resulting in several impactful use cases:
 
-### Making a Progressive Web App
+- **Insurance Policies**: Analyzing and summarizing insurance policy terms for better consumer understanding.
+- **Banking**: Handling banking documents and translating lengthy lists of fees for user clarity.
+- **Software/Tech**: Managing EULAs and terms of service agreements to simplify complex language.
+- **Wireless Carriers**: Streamlining multi-page contracts for user comprehension.
+- **Credit Cards**: Enhancing understanding of credit card agreements, particularly intricate terms.
+- **Travel Sites**: Facilitating efficient handling of reservations, cancellations, and related policies.
+- **Pharmaceutical Companies**: Simplifying health warnings on pharmaceutical product packaging.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+RecapAI's versatile application across these domains showcases its adaptability and effectiveness in various contexts.
 
-### Advanced Configuration
+## Benefits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Enhances understanding of complex text.
+- Saves time and effort.
 
-### Deployment
+## Limitations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+RecapAI may have limitations in handling highly specialized or context-specific content.
 
-### `npm run build` fails to minify
+## Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+RecapAI simplifies complex text, making it a valuable tool in various applications.
+
+# Browser Extension Capabilities
+
+RecapAI offers a range of browser extension capabilities for a seamless user experience:
+
+- **Seamless Integration:** RecapAI seamlessly integrates into the Chrome browser, allowing on-demand use on any web page. Users can highlight text and access summaries without leaving their tab.
+
+- **Popup Sidebar:** Summarized content and extracted insights appear in a clean popup sidebar for easy access and reference while browsing.
+
+- **Toolbar Shortcut:** The RecapAI toolbar icon provides quick one-click access to start summarizing text on any webpage.
+
+- **Cross-Platform:** The extension is available for download on Chrome web browsers across desktop and mobile platforms like Android and iOS.
+
+- **Secure and Private:** RecapAI processes everything locally in the browser to keep data private. No content is ever sent externally.
+
+- **Customizable Options:** Users can customize the extension to suit their preferences, including summary length, voice for reading aloud, highlighting colors, and more.
+
+- **One-Click Sharing:** Easily share summarized content and insights via email, social media, or other apps directly from the extension popup.
+
+## Technology Stack
+
+- **UI Components:** Built using React to create UI components like popups, options, and sidebar.
+
+- **Responsive Design:** Follows responsive design principles to ensure a consistent user experience across both desktop and mobile platforms.
+
+- **In-Extension Navigation:** Integrates React Router for in-extension navigation.
+
+- **Content Analysis:** Injects content scripts at runtime for webpage text analysis.
+
+- **Natural Language Processing (NLP):** Executes NLP locally using TensorFlow Lite + WebAssembly for efficient text processing.
+
+- **Background Processing:** Leverages service workers for background processing tasks.
+
+- **Hosting:** Core files are hosted on Firebase Hosting for reliable and scalable delivery.
+
+- **Account Management:** Utilizes Firebase Auth for account management.
+
+- **User Data and Settings:** Stores user data and settings in Firebase Firestore for easy access and synchronization.
+
+- **Serverless Logic:** Utilizes Firebase Functions for serverless logic execution.
+
+- **Cross-Browser Compatibility:** Follows WebExtension APIs for cross-browser capability to ensure broad accessibility.
+
+- **Code Structuring:** Implements TypeScript for structured and type-safe code.
+
+- **Code Bundling:** Bundles code efficiently using Webpack for optimized performance.
+
+- **CI/CD Pipeline:** Implements a CI/CD pipeline with Github Actions for automated testing and deployment.
+
+- **Performance Optimization:** Limits DOM manipulation to enhance performance.
+
+- **Asynchronous Logic:** Uses asynchronous logic to prevent blocking and ensure a smooth user experience.
+
+- **Component Separation:** Separates components for single responsibility and maintainability.
+
+- **Optimized Production Build:** Utilizes Preact for optimized production builds, improving performance and user experience.
+
+- **Design Guidelines:** Follows Chrome UX guidelines and conventions for a consistent and user-friendly interface.
+
+- **Mobile-Friendly Layouts:** Designs responsive and mobile-friendly layouts to accommodate various devices.
+
+- **Accessibility:** Prioritizes accessibility to ensure the extension is usable by individuals with disabilities.
+
+- **Permission Usage:** Clearly explains and requests permissions when needed, respecting user privacy.
+
+- **Error Handling:** Properly handles errors to provide a seamless user experience.
+
+- **Keyboard Shortcuts:** Implements keyboard shortcuts for user convenience.
+
+- **Drag-and-Drop:** Implements drag-and-drop functionality where appropriate.
+
+- **Web Store Listing Optimization:** Optimizes the Web Store listing for discoverability and user engagement.
+
+- **Platform-Specific Guidelines:** Follows platform-specific guidelines to provide a consistent experience on different platforms.
