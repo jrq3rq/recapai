@@ -222,7 +222,7 @@ recapai
 
 ## Overview
 
-RecapAI is an AI-powered platform designed to simplify complex documents and text. Making the fine print crystal clear.
+RecapAI is an AI-powered tool designed to simplify complex documents and text. Making the fine print crystal clear.
 
 ## Key Features
 
