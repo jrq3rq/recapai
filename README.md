@@ -222,7 +222,7 @@ recapai
 
 ## Overview
 
-RecapAI is an AI-powered tool designed to simplify complex documents and text. Making the fine print crystal clear.
+RecapAI is an AI-powered tool designed to simplify complex documents and text. Making the fine print crystal clear. Our primary goal is to build a Chrome extensions extension that when users highlight text, it gives them a summerized list in order of the most important parts.
 
 ## Key Features
 
