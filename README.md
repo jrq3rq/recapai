@@ -49,6 +49,153 @@ recapai
 
 ![recapai_diagramIMG](public/images/recapai_diagramIMG.jpeg)
 
+## Overview
+
+RecapAI is an AI-powered tool designed to simplify complex documents and text. Making the fine print crystal clear. Our primary goal is to build a Chrome extensions extension that when users highlight text, it gives them a summerized list in order of the most important parts.
+
+## Key Features
+
+RecapAI offers a range of powerful features to enhance user interaction with complex text:
+
+### Feature 1: Instant Summaries
+
+RecapAI enables users to generate concise document summaries instantly through natural language processing.
+
+### Feature 2: Plain Language Translation
+
+RecapAI translates complex jargon and legalese into understandable language.
+
+### Feature 3: Insight Extraction
+
+RecapAI extracts and highlights key details, figures, obligations, rights, and action items from complex text.
+
+### Feature 4: Customizable Summaries
+
+RecapAI allows users to customize summary length and depth according to their needs.
+
+### Feature 5: Interactive Assistance
+
+RecapAI features an AI-powered assistant to clarify concepts and provide interactive guidance.
+
+These features make RecapAI a versatile tool for simplifying complex text.
+
+## Application Areas
+
+RecapAI is applied in various domains:
+
+- **Insurance Policies**: Analyzing and summarizing insurance policy terms.
+- **Banking**: Handling banking documents and lengthy lists of fees.
+- **Software/Tech**: Managing EULAs and terms of service agreements.
+- **Wireless Carriers**: Dealing with multi-page contracts.
+- **Credit Cards**: Understanding credit card agreements.
+- **Travel Sites**: Handling reservations, cancellations, and related policies.
+- **Pharmaceutical Companies**: Summarizing health warnings on products.
+
+## How It Works
+
+RecapAI simplifies complex text using advanced natural language processing.
+
+## Use Cases
+
+RecapAI is applied in various domains, resulting in several impactful use cases:
+
+- **Insurance Policies**: Analyzing and summarizing insurance policy terms for better consumer understanding.
+- **Banking**: Handling banking documents and translating lengthy lists of fees for user clarity.
+- **Software/Tech**: Managing EULAs and terms of service agreements to simplify complex language.
+- **Wireless Carriers**: Streamlining multi-page contracts for user comprehension.
+- **Credit Cards**: Enhancing understanding of credit card agreements, particularly intricate terms.
+- **Travel Sites**: Facilitating efficient handling of reservations, cancellations, and related policies.
+- **Pharmaceutical Companies**: Simplifying health warnings on pharmaceutical product packaging.
+
+RecapAI's versatile application across these domains showcases its adaptability and effectiveness in various contexts.
+
+## Benefits
+
+- Enhances understanding of complex text.
+- Saves time and effort.
+
+## Limitations
+
+RecapAI may have limitations in handling highly specialized or context-specific content.
+
+## Conclusion
+
+RecapAI simplifies complex text, making it a valuable tool in various applications.
+
+# Browser Extension Capabilities
+
+RecapAI offers a range of browser extension capabilities for a seamless user experience:
+
+- **Seamless Integration:** RecapAI seamlessly integrates into the Chrome browser, allowing on-demand use on any web page. Users can highlight text and access summaries without leaving their tab.
+
+- **Popup Sidebar:** Summarized content and extracted insights appear in a clean popup sidebar for easy access and reference while browsing.
+
+- **Toolbar Shortcut:** The RecapAI toolbar icon provides quick one-click access to start summarizing text on any webpage.
+
+- **Cross-Platform:** The extension is available for download on Chrome web browsers across desktop and mobile platforms like Android and iOS.
+
+- **Secure and Private:** RecapAI processes everything locally in the browser to keep data private. No content is ever sent externally.
+
+- **Customizable Options:** Users can customize the extension to suit their preferences, including summary length, voice for reading aloud, highlighting colors, and more.
+
+- **One-Click Sharing:** Easily share summarized content and insights via email, social media, or other apps directly from the extension popup.
+
+## Technology Stack
+
+- **UI Components:** Built using React to create UI components like popups, options, and sidebar.
+
+- **Responsive Design:** Follows responsive design principles to ensure a consistent user experience across both desktop and mobile platforms.
+
+- **In-Extension Navigation:** Integrates React Router for in-extension navigation.
+
+- **Content Analysis:** Injects content scripts at runtime for webpage text analysis.
+
+- **Natural Language Processing (NLP):** Executes NLP locally using TensorFlow Lite + WebAssembly for efficient text processing.
+
+- **Background Processing:** Leverages service workers for background processing tasks.
+
+- **Hosting:** Core files are hosted on Firebase Hosting for reliable and scalable delivery.
+
+- **Account Management:** Utilizes Firebase Auth for account management.
+
+- **User Data and Settings:** Stores user data and settings in Firebase Firestore for easy access and synchronization.
+
+- **Serverless Logic:** Utilizes Firebase Functions for serverless logic execution.
+
+- **Cross-Browser Compatibility:** Follows WebExtension APIs for cross-browser capability to ensure broad accessibility.
+
+- **Code Structuring:** Implements TypeScript for structured and type-safe code.
+
+- **Code Bundling:** Bundles code efficiently using Webpack for optimized performance.
+
+- **CI/CD Pipeline:** Implements a CI/CD pipeline with Github Actions for automated testing and deployment.
+
+- **Performance Optimization:** Limits DOM manipulation to enhance performance.
+
+- **Asynchronous Logic:** Uses asynchronous logic to prevent blocking and ensure a smooth user experience.
+
+- **Component Separation:** Separates components for single responsibility and maintainability.
+
+- **Optimized Production Build:** Utilizes Preact for optimized production builds, improving performance and user experience.
+
+- **Design Guidelines:** Follows Chrome UX guidelines and conventions for a consistent and user-friendly interface.
+
+- **Mobile-Friendly Layouts:** Designs responsive and mobile-friendly layouts to accommodate various devices.
+
+- **Accessibility:** Prioritizes accessibility to ensure the extension is usable by individuals with disabilities.
+
+- **Permission Usage:** Clearly explains and requests permissions when needed, respecting user privacy.
+
+- **Error Handling:** Properly handles errors to provide a seamless user experience.
+
+- **Keyboard Shortcuts:** Implements keyboard shortcuts for user convenience.
+
+- **Drag-and-Drop:** Implements drag-and-drop functionality where appropriate.
+
+- **Web Store Listing Optimization:** Optimizes the Web Store listing for discoverability and user engagement.
+
+- **Platform-Specific Guidelines:** Follows platform-specific guidelines to provide a consistent experience on different platforms.
+
 # Project Planning
 
 ## Planning Phase
@@ -219,150 +366,3 @@ recapai
 - Ongoing performance testing
 - Monitor changelog
 - Regression testing
-
-## Overview
-
-RecapAI is an AI-powered tool designed to simplify complex documents and text. Making the fine print crystal clear. Our primary goal is to build a Chrome extensions extension that when users highlight text, it gives them a summerized list in order of the most important parts.
-
-## Key Features
-
-RecapAI offers a range of powerful features to enhance user interaction with complex text:
-
-### Feature 1: Instant Summaries
-
-RecapAI enables users to generate concise document summaries instantly through natural language processing.
-
-### Feature 2: Plain Language Translation
-
-RecapAI translates complex jargon and legalese into understandable language.
-
-### Feature 3: Insight Extraction
-
-RecapAI extracts and highlights key details, figures, obligations, rights, and action items from complex text.
-
-### Feature 4: Customizable Summaries
-
-RecapAI allows users to customize summary length and depth according to their needs.
-
-### Feature 5: Interactive Assistance
-
-RecapAI features an AI-powered assistant to clarify concepts and provide interactive guidance.
-
-These features make RecapAI a versatile tool for simplifying complex text.
-
-## Application Areas
-
-RecapAI is applied in various domains:
-
-- **Insurance Policies**: Analyzing and summarizing insurance policy terms.
-- **Banking**: Handling banking documents and lengthy lists of fees.
-- **Software/Tech**: Managing EULAs and terms of service agreements.
-- **Wireless Carriers**: Dealing with multi-page contracts.
-- **Credit Cards**: Understanding credit card agreements.
-- **Travel Sites**: Handling reservations, cancellations, and related policies.
-- **Pharmaceutical Companies**: Summarizing health warnings on products.
-
-## How It Works
-
-RecapAI simplifies complex text using advanced natural language processing.
-
-## Use Cases
-
-RecapAI is applied in various domains, resulting in several impactful use cases:
-
-- **Insurance Policies**: Analyzing and summarizing insurance policy terms for better consumer understanding.
-- **Banking**: Handling banking documents and translating lengthy lists of fees for user clarity.
-- **Software/Tech**: Managing EULAs and terms of service agreements to simplify complex language.
-- **Wireless Carriers**: Streamlining multi-page contracts for user comprehension.
-- **Credit Cards**: Enhancing understanding of credit card agreements, particularly intricate terms.
-- **Travel Sites**: Facilitating efficient handling of reservations, cancellations, and related policies.
-- **Pharmaceutical Companies**: Simplifying health warnings on pharmaceutical product packaging.
-
-RecapAI's versatile application across these domains showcases its adaptability and effectiveness in various contexts.
-
-## Benefits
-
-- Enhances understanding of complex text.
-- Saves time and effort.
-
-## Limitations
-
-RecapAI may have limitations in handling highly specialized or context-specific content.
-
-## Conclusion
-
-RecapAI simplifies complex text, making it a valuable tool in various applications.
-
-# Browser Extension Capabilities
-
-RecapAI offers a range of browser extension capabilities for a seamless user experience:
-
-- **Seamless Integration:** RecapAI seamlessly integrates into the Chrome browser, allowing on-demand use on any web page. Users can highlight text and access summaries without leaving their tab.
-
-- **Popup Sidebar:** Summarized content and extracted insights appear in a clean popup sidebar for easy access and reference while browsing.
-
-- **Toolbar Shortcut:** The RecapAI toolbar icon provides quick one-click access to start summarizing text on any webpage.
-
-- **Cross-Platform:** The extension is available for download on Chrome web browsers across desktop and mobile platforms like Android and iOS.
-
-- **Secure and Private:** RecapAI processes everything locally in the browser to keep data private. No content is ever sent externally.
-
-- **Customizable Options:** Users can customize the extension to suit their preferences, including summary length, voice for reading aloud, highlighting colors, and more.
-
-- **One-Click Sharing:** Easily share summarized content and insights via email, social media, or other apps directly from the extension popup.
-
-## Technology Stack
-
-- **UI Components:** Built using React to create UI components like popups, options, and sidebar.
-
-- **Responsive Design:** Follows responsive design principles to ensure a consistent user experience across both desktop and mobile platforms.
-
-- **In-Extension Navigation:** Integrates React Router for in-extension navigation.
-
-- **Content Analysis:** Injects content scripts at runtime for webpage text analysis.
-
-- **Natural Language Processing (NLP):** Executes NLP locally using TensorFlow Lite + WebAssembly for efficient text processing.
-
-- **Background Processing:** Leverages service workers for background processing tasks.
-
-- **Hosting:** Core files are hosted on Firebase Hosting for reliable and scalable delivery.
-
-- **Account Management:** Utilizes Firebase Auth for account management.
-
-- **User Data and Settings:** Stores user data and settings in Firebase Firestore for easy access and synchronization.
-
-- **Serverless Logic:** Utilizes Firebase Functions for serverless logic execution.
-
-- **Cross-Browser Compatibility:** Follows WebExtension APIs for cross-browser capability to ensure broad accessibility.
-
-- **Code Structuring:** Implements TypeScript for structured and type-safe code.
-
-- **Code Bundling:** Bundles code efficiently using Webpack for optimized performance.
-
-- **CI/CD Pipeline:** Implements a CI/CD pipeline with Github Actions for automated testing and deployment.
-
-- **Performance Optimization:** Limits DOM manipulation to enhance performance.
-
-- **Asynchronous Logic:** Uses asynchronous logic to prevent blocking and ensure a smooth user experience.
-
-- **Component Separation:** Separates components for single responsibility and maintainability.
-
-- **Optimized Production Build:** Utilizes Preact for optimized production builds, improving performance and user experience.
-
-- **Design Guidelines:** Follows Chrome UX guidelines and conventions for a consistent and user-friendly interface.
-
-- **Mobile-Friendly Layouts:** Designs responsive and mobile-friendly layouts to accommodate various devices.
-
-- **Accessibility:** Prioritizes accessibility to ensure the extension is usable by individuals with disabilities.
-
-- **Permission Usage:** Clearly explains and requests permissions when needed, respecting user privacy.
-
-- **Error Handling:** Properly handles errors to provide a seamless user experience.
-
-- **Keyboard Shortcuts:** Implements keyboard shortcuts for user convenience.
-
-- **Drag-and-Drop:** Implements drag-and-drop functionality where appropriate.
-
-- **Web Store Listing Optimization:** Optimizes the Web Store listing for discoverability and user engagement.
-
-- **Platform-Specific Guidelines:** Follows platform-specific guidelines to provide a consistent experience on different platforms.
