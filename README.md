@@ -53,24 +53,67 @@ recapai
 
 ## Planning Phase
 
-- Create user stories to define MVP features, nice-to-haves, and future ideas.
-- Map UI/UX flow
-  - Diagram core user interactions
-  - Identify key pages and components
-  - Sketch information architecture
-- Design mockups
-  - Sketch initial mockups
-  - Create higher fidelity visual designs
-  - Iterate based on feedback
-- Evaluate technology stack
-  - Research options
-  - Make preliminary decisions
-  - Document reasons for choices
-- Set up project tracking
-  - Choose tracking tool (e.g. Trello)
-  - Create boards and lists
-  - Add tickets for tasks
-  - Assign owners
+### Diagram core user interactions
+
+- User highlights text on web page
+- Clicks extension icon to summarize
+- Summary appears in popup sidebar
+- User customizes settings
+
+### Identify key pages and components
+
+- Popup sidebar
+- Settings page
+- Extension popup
+- Text highlighting tools
+
+### Sketch information architecture
+
+- Homepage
+- Login
+- Dashboard
+- Summarize sidebar
+- Documents page
+- User profile
+- Settings
+
+### Design mockups
+
+- Sketch initial mockups
+  - Low fidelity pencil sketches
+  - Focus on layout and flow
+- Create higher fidelity visual designs
+  - Digital mockups
+  - Detailed component design
+  - Interaction cues
+  - Style guide
+- Iterate based on feedback
+- Conduct usability testing
+  - Refine confusing areas
+
+### Evaluate technology stack
+
+- Research options
+  - React, Vue, Svelte for frontend
+  - Firebase, Supabase for backend
+  - TensorFlow, Hugging Face for NLP
+- Make preliminary decisions
+  - React for modular UI
+  - Firebase for hosting and data
+  - TensorFlow for on-device NLP
+- Document reasons for choices
+  - React is robust and scalable
+  - Firebase simplifies auth and cloud storage
+  - TensorFlow enables local model execution
+
+### Set up project tracking
+
+- Choose tracking tool (e.g. Trello)
+- Create boards and lists
+  - Backlog, Todo, In Progress, Review, Done
+- Add tickets for tasks
+- Assign owners
+- Tag team members on tasks
 
 ## Development Phase
 
